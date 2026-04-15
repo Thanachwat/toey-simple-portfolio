@@ -65,4 +65,20 @@ h1 {
     border: 1px solid #30363d;
     padding: 1.5rem;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.demo-link {
+    display: inline-block;
+    margin-top: auto;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+.demo-link:hover {
+    opacity: 0.8;
 }
