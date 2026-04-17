@@ -2,12 +2,14 @@
     --bg-color: #0d1117;
     --text-color: #c9d1d9;
     --accent-color: #58a6ff;
+    --card-border: #30363d;
 }
 
 body.light-theme {
     --bg-color: #ffffff;
     --text-color: #24292e;
     --accent-color: #0366d6;
+    --card-border: #e1e4e8;
 }
 
 body {
@@ -62,7 +64,7 @@ h1 {
 }
 
 .card {
-    border: 1px solid #30363d;
+    border: 1px solid var(--card-border);
     padding: 1.5rem;
     border-radius: 8px;
     display: flex;
